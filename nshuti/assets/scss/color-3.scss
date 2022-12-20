@@ -1,0 +1,30 @@
+@charset "charset";
+// Typography ( Import Typography )
+
+@import "base/typography";
+
+// Utilities ( Import Utilities )
+@import "utilities/variables";
+
+$main-primary-color: $main-primary-color-3;
+$main-primary-color-g: $main-primary-color-g-3;
+$main-secondary-color: $main-secondary-color-3;
+
+@import "utilities/mixins";
+
+// Components ( Import Utilities )
+@import "components/common";
+@import "components/header";
+@import "components/side-tools";
+@import "components/footer";
+
+// Layouts ( Import Utilities )
+@import "layouts/home";
+@import "layouts/about";
+@import "layouts/service";
+@import "layouts/experience";
+@import "layouts/portfolio";
+@import "layouts/counter";
+@import "layouts/news";
+@import "layouts/contact";
+@import "layouts/whats-chat";
