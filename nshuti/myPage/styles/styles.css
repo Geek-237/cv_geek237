@@ -5,10 +5,10 @@
     --as-bg-col-00:    #fff899;
     --as-bg-col-01:    #f8f899;
     --as-bg-col-02:    snow;
-    --as-col-a:        darkblue;
+    --as-col-a: #272780;
     --as-col-emph:     darkred;
     --as-col-a-h:      white;
-    --as-bg-col-a-h:   red;
+    --as-bg-col-a-h:   green;
     --as-col-nav_a:    blue;
     --as-bg-col-nav-p: wheat;
     --as-bg-col-tr:    white;
@@ -113,6 +113,9 @@ p {
 a {
     text-decoration: none;
     color: var(--as-col-a);
+}
+#portfolio{
+    color: #fd0329;
 }
 
 a.a_round {
